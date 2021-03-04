@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "npm install && next build && next start",
     "dev": "next dev",
-    "build": "next build",
-    "start": "next start"
+    "build": "next build"
   },
   "author": "",
   "license": "ISC",
